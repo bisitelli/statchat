@@ -1,36 +1,36 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# StatChat
 
-## Getting Started
+StatChat is a clean, minimalistic chat-based application for exploring sports statistics. The idea behind the app is to make accessing stats easy and interactive — users can ask questions in natural language and get answers in real-time.
 
-First, run the development server:
+This MVP showcases a basic chat interface with NHL statistics as an example dataset, along with features designed for future expansion.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🏀 Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Chat Interface:** Type a question and receive a response from the "bot" (currently the MVP returns dummy responses).
+- **Top Sport Categories:** Circular category buttons at the top:
+  - Ice Hockey (NHL) – active and highlighted in blue
+  - Football, Basketball, Baseball, and the `+` button – inactive and display **Coming Soon** alerts when clicked
+- **Input Field + Send Button:** Send a message either by clicking "Send" or pressing Enter.
+- **Future-ready `+` Button:** Designed to allow users to upload and interact with their own datasets in the future.
+- **Minimal, responsive UI:** Built with TailwindCSS, mobile-friendly.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## ⚡ MVP / Roadmap
 
-To learn more about Next.js, take a look at the following resources:
+Current MVP includes:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Basic chat component for sending and displaying messages.
+2. Dummy backend returning responses in the format: `"You asked: '…'"`.
+3. NHL stats placeholder dataset and active Ice Hockey category.
+4. Top sport categories with other sports marked as **Coming Soon**.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Planned future features:
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **OpenAI / LLM integration:** Convert natural language questions into SQL queries to fetch real stats.
+- **Database integration:** DuckDB or PostgreSQL to store and query historical sports stats.
+- **Charts & visualizations:** Display season comparisons, player stats, and game metrics in graphs.
+- **Multi-sport support:** Add more sports and datasets dynamically.
+- **User dataset uploads:** Allow users to add their own CSV/Excel data for analysis via chat.
