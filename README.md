@@ -2,7 +2,7 @@
 
 StatChat is a clean, minimalistic chat-based application for exploring sports statistics. The idea behind the app is to make accessing stats easy and interactive — users can ask questions in natural language and get answers in real-time.
 
-This MVP showcases a basic chat interface with NHL statistics as an example dataset, along with features designed for future expansion.
+This MVP showcases a basic chat interface with football statistics as an example dataset, along with features designed for future expansion.
 
 ---
 
