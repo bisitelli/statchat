@@ -10,8 +10,8 @@ This MVP showcases a basic chat interface with NHL statistics as an example data
 
 - **Chat Interface:** Type a question and receive a response from the "bot" (currently the MVP returns dummy responses).
 - **Top Sport Categories:** Circular category buttons at the top:
-  - Ice Hockey (NHL) – active and highlighted in blue
-  - Football, Basketball, Baseball, and the `+` button – inactive and display **Coming Soon** alerts when clicked
+  - Football – active and highlighted in blue
+  - Ice-Hockey, Basketball, Baseball, and the `+` button – inactive and display **Coming Soon** alerts when clicked
 - **Input Field + Send Button:** Send a message either by clicking "Send" or pressing Enter.
 - **Future-ready `+` Button:** Designed to allow users to upload and interact with their own datasets in the future.
 - **Minimal, responsive UI:** Built with TailwindCSS, mobile-friendly.

@@ -26,8 +26,8 @@ export default function Page() {
   const handlePlusClick = () => alert("Coming Soon!");
 
   const categories = [
-    { name: "Ice Hockey", color: "bg-blue-400", active: true },
-    { name: "Football", color: "bg-gray-300", active: false },
+    { name: "Football", color: "bg-blue-400", active: true },
+    { name: "Ice Hockey", color: "bg-gray-300", active: false },
     { name: "Basketball", color: "bg-gray-300", active: false },
     { name: "Baseball", color: "bg-gray-300", active: false },
     { name: "+", color: "bg-gray-300", active: false, plus: true },
@@ -84,7 +84,7 @@ export default function Page() {
           />
           <button
             onClick={sendMessage}
-            className="absolute right-1 top-1/2 transform -translate-y-1/2 bg-blue-600 hover:bg-blue-700 text-white px-4 py-1.5 rounded-full font-medium cursor-pointer"
+            className="absolute right-1 top-1/2 transform -translate-y-1/2 bg-blue-400 hover:bg-blue-500 text-white px-4 py-1.5 rounded-full font-medium cursor-pointer"
           >
             Send
           </button>
